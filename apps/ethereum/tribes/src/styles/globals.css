@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap");
 
 :root {
-  --color-theme-black: #0e0d0d;
-  --color-theme-white: #f0f0f0;
-  --color-theme-red: #eeffa3;
+  --color-theme-black: #000000
+  --color-theme-white: #ffffff;
+  --color-theme-red: #7e1313;
 }
 
 * {
@@ -15,12 +15,10 @@
 
 html,
 body {
-  font-family: "Inconsolata";
+  font-family: "Open Sans";
   background-color: var(--color-theme-black);
   color: var(--color-theme-white);
-  
 }
-
 
 /* ------------------- Tribes Main Page ------------------- */
 main {
@@ -39,8 +37,6 @@ nav {
   max-width: 1500px;
   font-family: "Press Start 2P";
 }
-
-
 
 nav > a {
   font-size: 0.9rem;
@@ -89,4 +85,3 @@ footer {
   height: 300px;
   padding: 0 1rem;
 }
-
